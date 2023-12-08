@@ -21,6 +21,6 @@ def count_word_occurrences(input_string):
         print(f"{word:{maximum_word_length}} : {count}")
 
 
-user_input_text = input("Enter a text: ")
+user_input_text = input("Enter a text : ")
 
 count_word_occurrences(user_input_text)

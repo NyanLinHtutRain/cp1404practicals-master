@@ -15,7 +15,7 @@ def main():
     user_data = {}
 
     while True:
-        email = input("Email: ").strip()
+        email = input("Email : ").strip()
         if not email:
             break
 

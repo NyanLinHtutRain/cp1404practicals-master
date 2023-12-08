@@ -5,7 +5,6 @@ Actual:   75 minutes
 File: wimbledon.py
 """
 
-
 def read_wimbledon_data(filename):
     wimbledon_data = []
     with open(filename, "r", encoding="utf-8-sig") as in_file:
