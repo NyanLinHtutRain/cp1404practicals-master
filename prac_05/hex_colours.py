@@ -30,4 +30,4 @@ while True:
     if color_code:
         print(f"The hexadecimal code for {color_name.capitalize()} is {color_code}.")
     else:
-        print("Invalid color name. Please try again.")
+        print("Invalid color name.Please try again.")
