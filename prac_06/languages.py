@@ -15,7 +15,7 @@ def main():
 
     languages_list = [python, ruby, visual_basic]
 
-    print("\nThe dynamically typed languages are:")
+    print("\nThe dynamically typed languages are :")
     for language in languages_list:
         if language.is_dynamic():
             print(language.name)
