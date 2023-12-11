@@ -1,7 +1,7 @@
 class Guitar:
     """Represent a guitar with specific attributes."""
 
-    def __init__(self, name="", year=0, cost=0):
+    def __init__(self, name=" ", year=0, cost=0):
         """Initialize a Guitar instance.
 
         name: str, the name of the guitar
