@@ -15,7 +15,7 @@ class ProgrammingLanguage:
         self.year = year
 
     def __repr__(self):
-        """Return string representation of a ProgrammingLanguage."""
+        """Return string representation of ProgrammingLanguage."""
         return f"{self.name}, {self.typing} Typing, Reflection={self.reflection}, First appeared in {self.year}"
 
     def is_dynamic(self):

@@ -18,7 +18,7 @@ def load_guitars(file_name):
 
 
 def write_guitars(file_name, guitars):
-    """Write guitars to a file."""
+    """Write guitars to file."""
     with open(file_name, 'w') as file:
         for guitar in guitars:
             file.write(f"{guitar.name},{guitar.year},{guitar.cost:.2f}\n")

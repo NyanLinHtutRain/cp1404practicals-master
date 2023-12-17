@@ -98,10 +98,10 @@ def main():
         choice = input(">>> ").upper()
 
         if choice == "L":
-            load_projects_filename = input("Enter filename to load projects from: ")
+            load_projects_filename = input("Enter filename to load projects from : ")
             projects = load_projects(load_projects_filename)
         elif choice == "S":
-            save_projects_filename = input("Enter filename to save projects to: ")
+            save_projects_filename = input("Enter filename to save projects to : ")
             save_projects(save_projects_filename, projects)
         elif choice == "D":
             display_projects(projects)
