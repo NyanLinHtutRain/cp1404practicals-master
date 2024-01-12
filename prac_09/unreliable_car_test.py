@@ -9,7 +9,7 @@ def main():
     distance_driven = unreliable_car.drive(30)
     print(f"Attempted to drive 30km, drove {distance_driven}km")
 
-    # Print the car's details
+    # Print the car's detail
     print(unreliable_car)
 
 

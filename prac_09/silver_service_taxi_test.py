@@ -8,7 +8,7 @@ def main():
     # Drive the taxi 18 km
     fancy_taxi.drive(18)
 
-    # Print the taxi's details and the total fare
+    # Print the taxi's details and total fare
     print(fancy_taxi)
     print(f"Total fare: ${fancy_taxi.get_fare():.2f}")
 
