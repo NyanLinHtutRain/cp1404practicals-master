@@ -2,7 +2,7 @@ from unreliable_car import UnreliableCar
 
 
 def main():
-    # Create an UnreliableCar object
+    # Create an UnreliableCar object.
     unreliable_car = UnreliableCar("Old Clunker", 100, 50)
 
     # Try to drive the car a certain distance
