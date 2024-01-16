@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, session
 import wikipedia
 
 app = Flask(__name__)
-# Set the secret key. Keep this really secret:
+# Set the secret key. Keep this really really secret:
 app.secret_key = 'IT@JCUA0Zr98j/3yXa R~XHH!jmN]LWX/,?RT'
 
 
