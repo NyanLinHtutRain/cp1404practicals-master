@@ -11,7 +11,7 @@ class UnreliableCar(Car):
         self.reliability = reliability
 
     def drive(self, distance):
-        """Drive the car only if random number is less than its reliability."""
+        """Drive the car only if a random number is less than its reliability."""
         if random.uniform(0, 100) < self.reliability:
             # Only drive if the car is reliable this time
             distance_driven = super().drive(distance)
