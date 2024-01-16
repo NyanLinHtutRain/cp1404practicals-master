@@ -15,3 +15,4 @@ If I were in charge of the subject, I would suggest the following changes to the
 1. More Collaborative Projects: Encouraging more group-based projects can enhance learning through peer interaction.
 2. Variety in Task Types: Incorporating a broader range of tasks that cater to different aspects of programming, such as debugging challenges or performance optimization tasks.
 3. Regular Feedback Sessions: Implementing periodic feedback sessions where students can discuss the challenges they faced and share their learning experiences.
+ 
